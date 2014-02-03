@@ -32,4 +32,9 @@ class AWS extends CMSModule
     {
         return '2.4.11'; // Follow the AWS SDK Versions
     }
+
+    public function Autoload()
+    {
+        require_once(__DIR__ . '/lib/autoload.php');
+    }
 }
