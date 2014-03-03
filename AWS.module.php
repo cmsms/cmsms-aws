@@ -30,7 +30,7 @@ class AWS extends CMSModule
 
     public function GetVersion()
     {
-        return '2.4.11'; // Follow the AWS SDK Versions
+        return '2.4.12'; // Follow the AWS SDK Versions
     }
 
     public function Autoload()
